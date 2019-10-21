@@ -4,7 +4,7 @@ node('master'){
 	              }
 	   stage('angular build'){
 	             sh 'npm install'
-	             sh 'ng build --base-href=/book-management/'
+	             sh 'ng build'
 	         }
 	
 	
